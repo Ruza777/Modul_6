@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 5 задача</title>
+    <style>
+        body {
+            background-color:darkgoldenrod;
+        }
+        form {
+
+            margin: 0 auto;
+            padding-top: 20%;
+            padding-bottom:5%;
+            display: block;
+            text-align: center;
+            color:rgb(10, 13, 157);
+        }
+        p {
+            padding-left: 30%;
+            color:rgb(10, 13, 157);
+        }
+        #duplicateField {
+            color:maroon;
+        }
+        button { 
+            border-radius: 7px;
+            background-color:rgb(189, 153, 63);
+            color: black;
+            border: 2px solid  rgb(216, 212, 171);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+        }
+        button:hover {
+        background-color: rgb(216, 212, 171);
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <label>
+            Текст
+            <input type="text" placeholder="Введите текст">
+        </label>
+        <button type="submit">
+            Вывести текст в консоль и удалить из формы
+        </button>
+    </form>
+    <hr><br>
+    <p>Введенный текст:</p>
+    <p id="duplicateField"></p>
+<script src="script.js"></script>    
+</body>
+</html>

@@ -1,0 +1,25 @@
+ body {
+    background-color:rgb(198, 218, 211);
+ }
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+ h2 {
+    text-align: center;
+    color: darkgreen;
+ }
+ li {
+    padding: 15px;
+ }
+ a:link {
+    color:coral;
+ }
+ a:visited {
+    color:dimgray;
+ }
+ a:hover {
+    color:seagreen;
+ }

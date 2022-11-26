@@ -1,0 +1,22 @@
+h2 {
+  margin: 50px;
+  color:firebrick;
+  font-size:large;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+body{
+  background-color: aqua;
+}
+.Light {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.trafficLight {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: black;
+  }
